@@ -146,6 +146,10 @@ sudo python3 setup.py install
 #### Usage
 
 ```bash
+
+~/openalpr/src/build
+alpr test.png
+
 python main.py -cfgfile <path to cfg file>\
                -weightfile <path to weight file>\
                -namesfile <path to classes.names file>\
